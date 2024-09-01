@@ -1,5 +1,7 @@
 # Tic-Tac-Toe Game
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0582dfe1-cad6-486f-8dea-373fd37a4602/deploy-status)](https://app.netlify.com/sites/tic-tac-toe-ardy/deploys)
+
 ## Objective
 
 This project is a two-player Tic-Tac-Toe game where players can compete against each other on a classic 3x3 grid. The game is built using React and Vite, designed to be simple, interactive, and customizable.
@@ -70,3 +72,5 @@ Open your browser and navigate to the provided local address to start playing.
 - **Leaderboard**: Introduce a leaderboard to track high scores across multiple sessions.
 - **Sound Effects**: Add sound effects for a more immersive experience.
 - **Score Tracking**: Keep track of wins, losses, and draws over multiple rounds.
+
+
