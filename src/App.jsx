@@ -59,7 +59,7 @@ function deriveWinner(gameBoard, players) {
       firstSquareSymbol === thirdSquareSymbol
     ) {
       winner = players[firstSquareSymbol];
-      break; // Break the loop once a winner is found
+      break; 
     }
   }
   return winner;

@@ -17,14 +17,12 @@ export default function Player({initialName, symbol, isActive, onChangeName }) {
   }
 
   let editablePlayerName = <span className="player-name">{playerName}</span>;
-  //   let btnCaption = "Edit";
   if (isEditing) {
     editablePlayerName = (
       <span>
         <input type="text" value={playerName} onChange={hadleChange} required />
       </span>
     );
-    // btnCaption = "Save";
   }
   return (
     <>
